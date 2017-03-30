@@ -1,0 +1,5 @@
+name: Jumpstart Triage
+markdown: kramdown
+permalink: /posts/:title
+gems:
+  - jekyll-sitemap
