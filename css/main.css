@@ -62,3 +62,11 @@ a img {
     top: -0.25em;
     z-index: -1;
 }
+
+hr {
+    border: none;
+    height: 4px;
+	width: 60%;
+    color: #E26C3C;
+    background-color: #E26C3C;
+}
