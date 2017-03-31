@@ -17,6 +17,11 @@ body {
 
 container {
 	background-color: #d60c35;
+	margin: 0 auto;
+    position: relative;
+	max-width: 40em;
+	padding: 1em;
+	overflow: auto;
 }
 
 content {
