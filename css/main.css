@@ -25,7 +25,8 @@ content {
 }
 
 header {
-	background-color: #000000; 
+	background-color: #000000;
+	margin-bottom: 1em auto;
 }
 
 nav {
@@ -33,7 +34,6 @@ nav {
 	margin-right: 5%;
 	
 	max-width: 40em;
-	margin: 1em auto;
 	padding: 1em;
 }
 
