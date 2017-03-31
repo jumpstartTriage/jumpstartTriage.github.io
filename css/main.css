@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-	margin-bottom: 1em auto;
+	margin: 0 auto;
 	position: relative;
 	max-width: 40em;
 	padding: 1em;
