@@ -29,6 +29,22 @@ body {
 	padding: 1em;
 }
 
+.3col1 {
+	width: 33%;
+	overflow: hidden;
+    float: left;
+}
+
+.3col2 {
+	width: 33%;
+	overflow: hidden;
+}
+
+.3col3 {
+	width: 33%;
+	overflow: hidden;
+}
+
 .header ul li {
 	margin: 0px;
 	display: inline;
