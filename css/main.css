@@ -35,6 +35,7 @@ nav {
 	
 	max-width: 40em;
 	padding: 1em;
+	float: center;
 }
 
 nav ul li {
