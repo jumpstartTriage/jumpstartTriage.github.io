@@ -39,8 +39,9 @@ nav {
 
 ul {
 	margin: 0px;
+	display: inline;
 }
 
-nav ul li, footer ul li {
+li {
     display: inline;
 }
