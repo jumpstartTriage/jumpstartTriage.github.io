@@ -37,11 +37,7 @@ nav {
 	padding: 1em;
 }
 
-ul {
+nav ul li {
 	margin: 0px;
 	display: inline;
-}
-
-li {
-    display: inline;
 }
