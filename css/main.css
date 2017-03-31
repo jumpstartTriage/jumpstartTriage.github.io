@@ -16,11 +16,9 @@ body {
 }
 
 content {
-	margin-left: 5%;
-	margin-right: 5%;
-	
+	margin: 0 auto;
+    position: relative;
 	max-width: 40em;
-	margin: 1em auto;
 	padding: 1em;
 }
 
