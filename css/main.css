@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+	background-color: #e8e8e8;
 	margin: 0 auto;
     position: relative;
 	max-width: 40em;
@@ -23,18 +24,13 @@ body {
 }
 
 header {
-	background-color: #000000;
 	margin-bottom: 1em auto;
-}
-
-nav {	
-    margin: 0 auto;
-    position: relative;
+	position: relative;
 	max-width: 40em;
 	padding: 1em;
 }
 
-nav ul li {
+header ul li {
 	margin: 0px;
 	display: inline;
 	text-align: right;
