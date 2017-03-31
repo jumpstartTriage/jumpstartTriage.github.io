@@ -4,8 +4,10 @@ title: Updates
 ---
 
 <h1>Updates</h1>
-<ul class="posts">
-  {% for post in site.posts %}
-	<li style = "margin-top: 0px;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
-  {% endfor %}
-</ul>
+<p>Here you can find updates on the development of Jumpstart Triage.</p>
+{% for post in site.posts %}
+	<hr>
+	<h3 style = "margin-top: 0px;">{{ post.title }}</h3>
+	<h4>{{ post.date | date: "%m/%d/%Y"}}</h4>
+	<p>{{ post.content }}<p>
+{% endfor %}
