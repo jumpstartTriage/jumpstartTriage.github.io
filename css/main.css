@@ -29,13 +29,13 @@ header {
 	margin-bottom: 1em auto;
 }
 
-nav {
-	margin-left: 5%;
-	margin-right: 5%;
-	
+nav {	
+	width: 40em;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
 	max-width: 40em;
 	padding: 1em;
-	float: center;
 }
 
 nav ul li {
