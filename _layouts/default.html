@@ -17,26 +17,28 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/team">Team</a></li>
-				<li><a href="/download">Download</a></li>
-			</ul>
-		</nav>
-		
 		<body>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			
-			<footer>
-	    		<ul>
-					© Mass DiGI 2017
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/team">Team</a></li>
+					<li><a href="/download">Download</a></li>
 				</ul>
-			</footer>
+			</nav>
+			
+			<content>
+				<div class="container">
+				
+				{{ content }}
+				
+				</div><!-- /.container -->
+				
+				<footer>
+					<ul>
+						© Mass DiGI 2017
+					</ul>
+				</footer>
+			</content>
 		</body>
 	</html>
