@@ -88,3 +88,10 @@ hr {
     color: #E26C3C;
     background-color: #E26C3C;
 }
+
+@media (max-width: 800px) {	
+	body {
+		font-size: 12px;
+		line-height: 1.5;
+	}
+}
