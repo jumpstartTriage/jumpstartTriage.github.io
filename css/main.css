@@ -41,4 +41,5 @@ nav {
 nav ul li {
 	margin: 0px;
 	display: inline;
+	text-align: left;
 }
