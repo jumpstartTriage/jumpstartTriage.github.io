@@ -16,10 +16,6 @@ body {
 }
 
 .container {
-	background-color: #d60c35;
-}
-
-.info {
 	margin: 0 auto;
     position: relative;
 	max-width: 40em;
