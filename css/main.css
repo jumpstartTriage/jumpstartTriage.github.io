@@ -24,8 +24,16 @@ content {
 	padding: 1em;
 }
 
-nav {
+header {
 	background-color: #000000; 
+}
+
+nav {
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	max-width: 40em;
+	margin: 1em auto;
 	padding: 1em;
 }
 
