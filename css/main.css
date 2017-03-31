@@ -15,16 +15,15 @@ body {
 	box-sizing: border-box;
 }
 
-container {
+.container {
 	background-color: #d60c35;
 }
 
-info {
+.info {
 	margin: 0 auto;
     position: relative;
 	max-width: 40em;
 	padding: 1em;
-	overflow: auto;
 }
 
 header {
