@@ -20,6 +20,7 @@ body {
 footer {
 	color: #ffffff;
 	box-sizing: border-box;
+	line-height: 1;
 }
 
 .header {
