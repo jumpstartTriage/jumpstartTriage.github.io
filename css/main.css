@@ -40,16 +40,16 @@ nav ul li {
 	text-align: right;
 }
 
-nav a, 
-nav a:visited, 
-nav a:focus { 
+nav ul li a, 
+nav ul li a:visited, 
+nav ul li a:focus { 
     color: #ffffff;
     text-decoration: none; 
     transition: .15s;
 	position: relative;
 }
 
-nav a:hover { 
+nav ul li a:hover { 
     background-color: #E26C3C;
 	background-size: 1.5em;
 }
