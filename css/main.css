@@ -94,4 +94,12 @@ hr {
 		font-size: 12px;
 		line-height: 1.5;
 	}
+	
+	.2col1 {
+		width: 100%;
+	}
+
+	.2col2 {
+		width: 100%;
+	}
 }
