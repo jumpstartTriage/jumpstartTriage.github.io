@@ -43,3 +43,19 @@ nav ul li {
 	display: inline;
 	text-align: left;
 }
+
+nav a, 
+nav a:visited, 
+nav a:focus { 
+    color: #ffffff;
+    text-decoration: none; 
+    transition: .15s; 
+}
+
+nav a:hover { 
+    background-color: #E26C3C; 
+}
+
+a img { 
+    border: 0; 
+}
