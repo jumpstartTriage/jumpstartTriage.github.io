@@ -47,7 +47,8 @@ nav a:visited,
 nav a:focus { 
     color: #ffffff;
     text-decoration: none; 
-    transition: .15s; 
+    transition: .15s;
+	position: relative;
 }
 
 nav a:hover { 
@@ -57,4 +58,14 @@ nav a:hover {
 
 a img { 
     border: 0; 
+}
+
+.title-bg {
+    background-color: black;
+    left: -0.25em;
+    height: 1.75em;
+    position: absolute;
+    right: -0.25em;
+    top: -0.25em;
+    z-index: -1;
 }
