@@ -35,19 +35,14 @@ footer {
 	padding: 1em;
 }
 
-.3col1 {
-	width: 33%;
+.2col1 {
+	width: 50%;
 	overflow: hidden;
     float: left;
 }
 
-.3col2 {
-	width: 33%;
-	overflow: hidden;
-}
-
-.3col3 {
-	width: 33%;
+.2col2 {
+	width: 50%;
 	overflow: hidden;
 }
 
