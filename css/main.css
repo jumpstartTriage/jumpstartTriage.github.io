@@ -19,6 +19,13 @@ footer {
 	color: #444444;
 }
 
+.header {
+	margin: 0 auto;
+    position: relative;
+	max-width: 40em;
+	padding: 1em;
+}
+
 .container {
 	margin: 0 auto;
     position: relative;
