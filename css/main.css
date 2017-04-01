@@ -62,11 +62,15 @@ footer {
     transition: .15s;
 	position: relative;
 	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 .header ul li a:hover { 
     background-color: #E26C3C;
 	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 a img { 
@@ -76,6 +80,8 @@ a img {
 .current-link {
     background-color: #E26C3C;
 	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 hr {
