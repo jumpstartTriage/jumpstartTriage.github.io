@@ -83,7 +83,7 @@ a img {
 	padding-left: 8px;
 }
 
-.header ul li a.current{
+.header ul li a:current{
 	background-color: #E26C3C;
 	padding: 4px;
 	padding-right: 8px;
