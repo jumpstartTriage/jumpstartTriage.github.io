@@ -43,6 +43,12 @@
 
 				// Then add your class
 				currentMenuItem.addClass("current-link");
+				
+				currentLinks = document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item')
+				currentLinks.forE‌​ach(function(link)
+				{
+					link.className += ' current-link')
+				});
 			</script>
 		</head>
 		
