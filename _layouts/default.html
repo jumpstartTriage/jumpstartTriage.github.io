@@ -77,7 +77,7 @@
 					$(".header a").each(function() {
 						// checks if its the same on the address bar
 						if (url == (this.href)) {
-							$(this).addClass("current-link");
+							$(this).closest("li").addClass("current-link");
 						}
 					});
 				});        
