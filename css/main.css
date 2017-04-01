@@ -72,14 +72,8 @@ a img {
     border: 0; 
 }
 
-.section-title .title-bg {
-    background-color: black;
-    left: -0.25em;
-    height: 1.75em;
-    position: absolute;
-    right: -0.25em;
-    top: -0.25em;
-    z-index: -1;
+.current-link {
+    background-color: #E26C3C;
 }
 
 hr {
