@@ -35,19 +35,6 @@
 			<meta name="theme-color" content="#E26C3C">
 			
 			<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-			<script>
-				$(document).ready(function()
-				{
-					// Get the current URL
-					var currentUrl = window.location.href;
-
-					// Get the span you want with a combination class and attribute and child jQuery selector
-					var currentMenuItem = $("a[href='" + currentUrl + "'] > .nav-item");
-
-					// Then add your class
-					currentMenuItem.addClass("current-link");
-				});
-			</script>
 		</head>
 		
 		<body>
@@ -80,5 +67,19 @@
 					</div>
 				</div>
 			</footer>
+			
+			<script>
+				$(document).ready(function()
+				{
+					// Get the current URL
+					var currentUrl = window.location.href;
+
+					// Get the span you want with a combination class and attribute and child jQuery selector
+					var currentMenuItem = $("a[href='" + currentUrl + "'] > .nav-item");
+
+					// Then add your class
+					currentMenuItem.addClass("current-link");
+				});
+			</script>
 		</body>
 	</html>
