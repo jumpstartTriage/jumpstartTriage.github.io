@@ -68,7 +68,23 @@
 				</div>
 			</footer>
 			
+			<script type="text/javascript">
+				$(function() {
+					// this will get the full URL at the address bar
+					var url = window.location.href;
+
+					// passes on every "a" tag
+					$(".header a").each(function() {
+						// checks if its the same on the address bar
+						if (url == (this.href)) {
+							$(this).closest("li").addClass("current-link");
+						}
+					});
+				});        
+			</script>
+			
 			<script>
+			/*
 				$(document).ready(function()
 				{
 					// Get the current URL
@@ -80,6 +96,7 @@
 					// Then add your class
 					currentMenuItem.addClass("current-link");
 				});
+			*/
 			</script>
 		</body>
 	</html>
