@@ -51,6 +51,8 @@ footer {
 .header ul li {
 	display: inline;
 	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .header ul li a, 
