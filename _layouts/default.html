@@ -36,12 +36,12 @@
 			
 			<script>
 				
-				
-				currentLinks = document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item')
+				document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item').forE‌​ach(function(elem){e‌​lem.className += ' current-link')});
+				/*currentLinks = document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item')
 				currentLinks.forE‌​ach(function(link)
 				{
 					link.className += ' current-link')
-				});
+				});*/
 			</script>
 		</head>
 		
