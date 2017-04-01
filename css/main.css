@@ -1,9 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
 	background-color: #000000; 
 	
-	font-family: 'Open Sans', sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	
 	text-align: left;
 	
