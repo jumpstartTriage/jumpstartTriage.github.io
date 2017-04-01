@@ -61,6 +61,7 @@ footer {
     text-decoration: none; 
     transition: .15s;
 	position: relative;
+	padding: 4px;
 }
 
 .header ul li a:hover { 
