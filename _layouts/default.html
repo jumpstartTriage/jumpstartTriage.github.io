@@ -37,12 +37,24 @@
 			<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 			<script>
 				
-				document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item').forE‌​ach(function(elem){e‌​lem.className += ' current-link')});
+				//document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item').forE‌​ach(function(elem){e‌​lem.className += ' current-link')});
 				/*currentLinks = document.querySelectorAll('a[href="'+document.URL+'"] > .nav-item')
 				currentLinks.forE‌​ach(function(link)
 				{
 					link.className += ' current-link')
 				});*/
+				
+				$(document).ready(function()
+				{
+					// Get the current URL
+					var currentUrl = window.location.href;
+
+					// Get the span you want with a combination class and attribute and child jQuery selector
+					var currentMenuItem = $("a[href='" + currentUrl + "'] > .main-nav-item");
+
+					// Then add your class
+					currentMenuItem.addClass("current");
+				});
 			</script>
 		</head>
 		
