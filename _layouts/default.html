@@ -77,26 +77,10 @@
 					$(".header a").each(function() {
 						// checks if its the same on the address bar
 						if (url == (this.href)) {
-							$(this).closest("li").addClass("current-link");
+							$(this).addClass("current-link");
 						}
 					});
 				});        
-			</script>
-			
-			<script>
-			/*
-				$(document).ready(function()
-				{
-					// Get the current URL
-					var currentUrl = window.location.href;
-
-					// Get the span you want with a combination class and attribute and child jQuery selector
-					var currentMenuItem = $("a[href='" + currentUrl + "'] > .nav-item");
-
-					// Then add your class
-					currentMenuItem.addClass("current-link");
-				});
-			*/
 			</script>
 		</body>
 	</html>
