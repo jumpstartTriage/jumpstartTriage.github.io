@@ -49,7 +49,7 @@ footer {
 }
 
 .header ul li {
-	margin: 8px;
+	margin: 4px;
 	display: inline;
 	text-align: right;
 }
@@ -67,7 +67,6 @@ footer {
 .header ul li a:hover { 
     background-color: #E26C3C;
 	padding: 4px;
-	background-size: 1.5em;
 }
 
 a img { 
@@ -76,6 +75,7 @@ a img {
 
 .current-link {
     background-color: #E26C3C;
+	padding: 4px;
 }
 
 hr {
