@@ -108,6 +108,10 @@ hr {
 		line-height: 1.5;
 	}
 	
+	.header ul li {
+		font-size: 12px;
+	}
+	
 	footer {
 		font-size: 12px;
 		line-height: 1.5;
