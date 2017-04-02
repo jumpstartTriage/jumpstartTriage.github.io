@@ -20,7 +20,7 @@ body {
 footer {
 	color: #ffffff;
 	box-sizing: border-box;
-	line-height: 1;
+	line-height: 0.5;
 }
 
 .container {
@@ -115,7 +115,7 @@ hr {
 	
 	footer {
 		font-size: 12px;
-		line-height: 1.5;
+		line-height: 0.5;
 	}
 	
 	.twocol1 {
