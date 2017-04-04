@@ -51,7 +51,6 @@ showSlides(slideIndex);
 function plusSlides(n)
 {
 	showSlides(slideIndex += n);
-	clearTimeout(timeOut);
 }
 
 function currentSlide(n)
@@ -87,6 +86,7 @@ function showSlides(n)
 	
 	slides[slideIndex-1].style.display = "block";  
 	dots[slideIndex-1].className += " active";
+	clearTimeout(timeOut);
 	timeOut = setTimeout(function(){ plusSlides(1); }, 3000); // Change image every 3 seconds
 }
 </script>
