@@ -36,25 +36,15 @@ footer {
     float: left;
 }
 
-.twocol2 {
+.twocol {
 	width: 50%;
 	overflow: hidden;
 }
 
-.threecol1 {
+.threecol {
 	width: 33%;
 	overflow: hidden;
     float: left;
-}
-
-.threecol2 {
-	width: 33%;
-	overflow: hidden;
-}
-
-.threecol3 {
-	width: 33%;
-	overflow: hidden;
 }
 
 a, 
@@ -134,23 +124,11 @@ hr {
 		line-height: 0.5;
 	}
 	
-	.twocol1 {
-		width: 100%;
-	}
-
-	.twocol2 {
+	.twocol {
 		width: 100%;
 	}
 	
-	.threecol1 {
-		width: 100%;
-	}
-
-	.threecol2 {
-		width: 100%;
-	}
-
-	.threecol3 {
+	.threecol {
 		width: 100%;
 	}
 }
