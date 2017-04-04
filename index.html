@@ -45,23 +45,23 @@ title: Home
 
 <script>
 var slideIndex = 1;
+var timeOut;
 showSlides(slideIndex);
 
 function plusSlides(n)
 {
-  showSlides(slideIndex += n);
-  clearTimeout(timeOut);
+	showSlides(slideIndex += n);
+	clearTimeout(timeOut);
 }
 
 function currentSlide(n)
 {
-  showSlides(slideIndex = n);
+	showSlides(slideIndex = n);
 }
 
 function showSlides(n)
 {
 	var i;
-	var timeOut;
 	var slides = document.getElementsByClassName("mySlides");
 	var dots = document.getElementsByClassName("dot");
 	
