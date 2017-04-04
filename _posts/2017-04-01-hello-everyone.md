@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World!"
+title: "Hello everyone!"
 date: 2017-03-31
 excerpt_separator: <!--more-->
 ---
