@@ -2,7 +2,7 @@
 layout: post
 title: "Hello everyone!"
 date: 2017-04-01
-excerpt_separator: "<!--more-->"
+excerpt_separator: <!--more-->
 ---
 
 We’re very excited to be launching our website! This project has gone through some tremendous folks full of talent and drive to make “Project Triage” a reality. When MassDiGI was approached by Yale to help develop “project Triage” we saw the value of how far this project can go, revolutionizing education itself for Medical Professionals.
