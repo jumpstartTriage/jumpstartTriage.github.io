@@ -41,6 +41,22 @@ footer {
 	overflow: hidden;
 }
 
+.threecol1 {
+	width: 33%;
+	overflow: hidden;
+    float: left;
+}
+
+.threecol2 {
+	width: 33%;
+	overflow: hidden;
+}
+
+.threecol3 {
+	width: 33%;
+	overflow: hidden;
+}
+
 a, 
 a:visited, 
 a:focus { 
@@ -123,6 +139,18 @@ hr {
 	}
 
 	.twocol2 {
+		width: 100%;
+	}
+	
+	.threecol1 {
+		width: 100%;
+	}
+
+	.threecol2 {
+		width: 100%;
+	}
+
+	.threecol3 {
 		width: 100%;
 	}
 }
