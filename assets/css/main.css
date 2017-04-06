@@ -70,6 +70,10 @@ a img {
 	padding: 1em;
 }
 
+.header ul {
+	padding-left: 0px;
+}
+
 .header ul li {
 	display: inline;
 	text-align: right;
