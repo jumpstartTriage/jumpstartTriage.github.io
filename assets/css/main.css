@@ -72,8 +72,8 @@ a img {
 
 .header ul {
 	padding-left: 0px;
-	webkit-margin-before: 0em;
-	webkit-margin-after: 0em;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
 }
 
 .header ul li {
