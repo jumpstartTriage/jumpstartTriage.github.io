@@ -1,4 +1,4 @@
-name: Jumpstart Triage
+name: Project Triage
 markdown: kramdown
 permalink: /posts/:title
 gems:
