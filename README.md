@@ -9,6 +9,7 @@ This website is built on Jekyll, so remember that and if you have any issues, yo
 2. Create a .md file under the naming convention; yyyy-mm-dd-name-of-post.md.
    * This website uses markdown for it's post format. Google markdown for formatting guidelines.
 3. Put this code snippet on the top:
+   * This is YAML, which is REQUIRED for Jekyll to process the post as a post.
 ```
 ---
 layout: post
@@ -17,8 +18,6 @@ date: yyyy-mm-dd
 excerpt_separator: <!--more-->
 ---
 ```
-
-   * This is YAML, which is REQUIRED for Jekyll to process the post as a post.
 4. Write your content under said header, using markdown ass formatting.
 5. You can use the `<!--more-->` tag to add a "Read More?" cutoff to your posts.
 6. Commit the file, (sync if on desktop) and you should see your post in about 3 minutes.
