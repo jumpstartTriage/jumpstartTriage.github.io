@@ -31,22 +31,25 @@ footer
 {
 	margin: 0 auto;
     position: relative;
-	max-width: 40em;
-	padding: 1em;
+	max-width: 60vw;
+	padding: 2vw;
 }
 
-.twocol1 {
+.twocol1
+{
 	width: 50%;
 	overflow: hidden;
     float: left;
 }
 
-.twocol {
+.twocol
+{
 	width: 50%;
 	overflow: hidden;
 }
 
-.threecol {
+.threecol
+{
 	width: 33%;
 	overflow: hidden;
     float: left;
@@ -68,20 +71,21 @@ a img {
     border: 0; 
 }
 
-.header {
-	margin: 0 auto;
+header
+{
+	margin: 0;
     position: relative;
-	max-width: 40em;
-	padding: 1em;
 }
 
-.header ul {
+header ul
+{
 	padding-left: 0px;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
 }
 
-.header ul li {
+header ul li
+{
 	display: inline;
 	text-align: right;
 	padding-top: 4px;
@@ -89,9 +93,10 @@ a img {
 	font-size: 22px;
 }
 
-.header ul li a, 
-.header ul li a:visited, 
-.header ul li a:focus { 
+header ul li a, 
+header ul li a:visited, 
+header ul li a:focus
+{ 
     color: #ffffff;
     text-decoration: none; 
     transition: .15s;
@@ -101,7 +106,8 @@ a img {
 	padding-left: 8px;
 }
 
-.header ul li a:hover { 
+header ul li a:hover
+{ 
     background-color: #E26C3C;
 	padding: 4px;
 	padding-right: 8px;
