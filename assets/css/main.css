@@ -99,9 +99,13 @@ a:focus
     transition: .15s; 
 }
 
-a:hover
+.area a, 
+.area a:visited, 
+.area a:focus
 { 
-    color: #C24F11; 
+    color: #000;
+    text-decoration: none; 
+    transition: .15s; 
 }
 
 a img
