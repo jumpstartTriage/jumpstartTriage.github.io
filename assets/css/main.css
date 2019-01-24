@@ -44,22 +44,18 @@ footer
 	background-color: #E26C3C;
 	color: #fff;
 
-	padding: 0;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding: 2vw;
 
-	margin-top: 1vw;
-	margin-bottom: 1vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
 }
 
 .subarea
 {
-	padding: 0;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding: 2vw;
 
-	margin-top: 1vw;
-	margin-bottom: 1vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
 }
 
 h1, h2, h3, h4, h5, h6, p
