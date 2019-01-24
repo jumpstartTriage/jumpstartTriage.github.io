@@ -32,7 +32,11 @@ footer
 	margin: 0 auto;
     position: relative;
 	max-width: 60vw;
-	padding: 2vw;
+
+	padding: 0;
+
+	padding-left: 4vw;
+	padding-right: 4vw;
 }
 
 .twocol1
