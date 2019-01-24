@@ -31,12 +31,12 @@ footer
 {
 	margin: 0 auto;
     position: relative;
-	max-width: 60vw;
+	max-width: 50vw;
 
 	padding: 0;
 
-	padding-top: 4vw;
-	padding-bottom: 4vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
 }
 
 .twocol1
@@ -61,17 +61,20 @@ footer
 
 a, 
 a:visited, 
-a:focus { 
+a:focus
+{ 
     color: #E26C3C;
     text-decoration: none; 
     transition: .15s; 
 }
 
-a:hover { 
+a:hover
+{ 
     color: #C24F11; 
 }
 
-a img { 
+a img
+{ 
     border: 0; 
 }
 
@@ -105,20 +108,16 @@ header ul li a:focus
     text-decoration: none; 
     transition: .15s;
 	position: relative;
-	padding: 4px;
-	padding-right: 8px;
-	padding-left: 8px;
+	padding: 1vw;
 }
 
 header ul li a:hover
 { 
     background-color: #E26C3C;
-	padding: 4px;
-	padding-right: 8px;
-	padding-left: 8px;
 }
 
-.current-link {
+.current-link
+{
     background-color: #E26C3C;
 }
 
