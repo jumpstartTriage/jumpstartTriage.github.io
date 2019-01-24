@@ -45,6 +45,8 @@ footer
 	color: #fff;
 
 	padding: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 
 	margin-top: 2vw;
 	margin-bottom: 2vw;
@@ -53,6 +55,8 @@ footer
 .subarea
 {
 	padding: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 
 	margin-top: 2vw;
 	margin-bottom: 2vw;
