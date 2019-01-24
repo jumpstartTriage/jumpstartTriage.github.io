@@ -1,5 +1,10 @@
-name: Project Triage
+name: Triage
+
 markdown: kramdown
+
 permalink: /posts/:title
+
+description: "“Jumpstart Triage” is an on-demand application that authentically simulates a disaster, the purpose of which is to train first responders to correctly act in a real situation!"
+
 gems:
   - jekyll-sitemap
