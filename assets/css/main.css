@@ -6,7 +6,7 @@ body
 	color: #444444;
 	
 	font-family: 'Raleway', sans-serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 
 	line-height: 1.5;
 
@@ -44,6 +44,8 @@ footer
 	background-color: #E26C3C;
 	color: #fff;
 
+	text-align: right;
+
 	padding: 2vw;
 	padding-top: 1vw;
 	padding-bottom: 1vw;
@@ -53,9 +55,7 @@ footer
 }
 
 .subarea
-{
-	text-align: right;
-	
+{	
 	padding: 2vw;
 	padding-top: 1vw;
 	padding-bottom: 1vw;
