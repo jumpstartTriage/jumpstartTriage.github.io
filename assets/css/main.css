@@ -127,6 +127,9 @@ header ul li a:hover
 	.container
 	{
 		max-width: 85vw;
+
+		padding-top: 6vw;
+		padding-bottom: 6vw;
 	}
 
 	.subarea, .area
