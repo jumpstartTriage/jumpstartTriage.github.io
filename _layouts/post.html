@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<h2><a href="/updates.html">&#10094 Back?</a><h2>
-<hr>
-<h1>{{ page.title }}</h1>
-<h2 class="meta">{{ page.date | date: "%m/%d/%Y" }}</h2>
-{{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
+<div class="subarea">
+	<h2><a href="/updates.html">&#10094 Back?</a><h2>
+</div>
+
+<div class="area">
+	<h1>{{ page.title }}</h1>
+	<h2 class="meta">{{ page.date | date: "%m/%d/%Y" }}</h2>
+	{{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
+</div>
