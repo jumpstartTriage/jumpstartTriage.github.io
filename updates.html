@@ -6,7 +6,7 @@ blurb: "Here you can find updates on the development on Triage!"
 ---
 
 {% for post in site.posts %}
-	{% assign opposite = forloop.index | modulo: 2 %}
+	{% assign opposite = forloop.index0 | modulo: 2 %}
 
 	{% if opposite == 0 %}
 	<div class="area">
