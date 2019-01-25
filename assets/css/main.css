@@ -60,26 +60,6 @@ h1, h2, h3, h4, h5, h6, p
 	margin-bottom: 1vw;
 }
 
-.twocol1
-{
-	width: 50%;
-	overflow: hidden;
-    float: left;
-}
-
-.twocol
-{
-	width: 50%;
-	overflow: hidden;
-}
-
-.threecol
-{
-	width: 33%;
-	overflow: hidden;
-    float: left;
-}
-
 a, 
 a:visited, 
 a:focus
@@ -136,8 +116,10 @@ header ul li a:hover
     background-color: #4879A0;
 }
 
-@media (max-width: 800px) {	
-	body {
+@media (max-width: 800px)
+{	
+	body
+	{
 		font-size: 14px;
 		line-height: 1.5;
 	}
@@ -149,13 +131,5 @@ header ul li a:hover
 	footer {
 		font-size: 12px;
 		line-height: 0.5;
-	}
-	
-	.twocol {
-		width: 100%;
-	}
-	
-	.threecol {
-		width: 100%;
 	}
 }
