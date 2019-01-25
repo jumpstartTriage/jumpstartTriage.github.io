@@ -42,16 +42,9 @@ footer
 .area
 {
 	background-color: #CCCCCC;
-
-	padding: 2vw;
-	padding-top: 1vw;
-	padding-bottom: 1vw;
-
-	margin-top: 2vw;
-	margin-bottom: 2vw;
 }
 
-.subarea
+.subarea, .area
 {	
 	padding: 2vw;
 	padding-top: 1vw;
@@ -92,15 +85,6 @@ a:visited,
 a:focus
 { 
     color: #4879A0;
-    text-decoration: none; 
-    transition: .15s; 
-}
-
-.area a, 
-.area a:visited, 
-.area a:focus
-{ 
-    color: #000;
     text-decoration: none; 
     transition: .15s; 
 }
