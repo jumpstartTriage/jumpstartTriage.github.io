@@ -85,6 +85,7 @@ header
 header ul
 {
 	padding: 0;
+	padding-top: 2vw;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
 	text-align: center;
@@ -127,7 +128,7 @@ header ul li a:hover
 
 	.container
 	{
-		max-width: 85vw;
+		max-width: 80vw;
 
 		padding-top: 9vw;
 		padding-bottom: 9vw;
