@@ -147,4 +147,11 @@ header ul li a:hover
 		margin-top: 3vw;
 		margin-bottom: 3vw;
 	}
+
+	header ul li a, 
+	header ul li a:visited, 
+	header ul li a:focus
+	{ 
+		padding: 4vw;
+	}
 }
