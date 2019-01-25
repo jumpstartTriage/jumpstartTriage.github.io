@@ -123,12 +123,12 @@ header ul
 	padding-top: 2vw;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
+	text-align: center;
 }
 
 header ul li
 {
 	display: inline;
-	text-align: right;
 	padding: 0;
 }
 
