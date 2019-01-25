@@ -128,23 +128,23 @@ header ul li a:hover
 	{
 		max-width: 85vw;
 
-		padding-top: 6vw;
-		padding-bottom: 6vw;
+		padding-top: 9vw;
+		padding-bottom: 9vw;
 	}
 
 	.subarea, .area
 	{	
-		padding: 3vw;
-		padding-top: 1.5vw;
-		padding-bottom: 1.5vw;
+		padding: 6vw;
+		padding-top: 3vw;
+		padding-bottom: 3vw;
 
-		margin-top: 4vw;
-		margin-bottom: 4vw;
+		margin-top: 9vw;
+		margin-bottom: 9vw;
 	}
 
 	h1, h2, h3, h4, h5, h6, p
 	{
-		margin-top: 2vw;
-		margin-bottom: 2vw;
+		margin-top: 3vw;
+		margin-bottom: 3vw;
 	}
 }
