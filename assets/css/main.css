@@ -92,7 +92,7 @@ header ul
 
 header ul li
 {
-	display: inline;
+	display: inline-flex;
 	padding: 0;
 }
 
