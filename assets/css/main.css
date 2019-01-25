@@ -41,7 +41,7 @@ footer
 
 .area
 {
-	background-color: #E26C3C;
+	background-color: #4879A0;
 	color: #fff;
 
 	text-align: right;
@@ -94,7 +94,7 @@ a,
 a:visited, 
 a:focus
 { 
-    color: #E26C3C;
+    color: #4879A0;
     text-decoration: none; 
     transition: .15s; 
 }
@@ -147,21 +147,12 @@ header ul li a:focus
 
 header ul li a:hover
 { 
-    background-color: #E26C3C;
+    background-color: #4879A0;
 }
 
 .current-link
 {
-    background-color: #E26C3C;
-}
-
-hr
-{
-    border: none;
-    height: 4px;
-	width: 90%;
-    color: #E26C3C;
-    background-color: #E26C3C;
+    background-color: #4879A0;
 }
 
 @media (max-width: 800px) {	
